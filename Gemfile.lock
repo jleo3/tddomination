@@ -16,10 +16,12 @@ GEM
     liquid (2.4.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    mysqlplus (0.1.2)
     posix-spawn (0.3.6)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    sequel (3.42.0)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
 
@@ -28,3 +30,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  mysqlplus
+  sequel
